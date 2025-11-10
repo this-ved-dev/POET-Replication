@@ -1,0 +1,13 @@
+data/
+work_dir/
+few_shot_splits/
+__pycache__/
+*.npy
+*.npz
+*.pt
+*.log
+*.csv
+*.tensorboard
+*.pth
+*.ckpt
+*.zip

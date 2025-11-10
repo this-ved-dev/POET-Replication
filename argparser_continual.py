@@ -21,7 +21,7 @@ def get_parser():
     parser.add_argument('--save_numbers_to_csv', action='store_true',
                         help='Log old new HM average to csv file')
     
-    parser.add_argument('--few_shot_data_file', type=str, default='/home/prachi/CTR-GCN/data/NTU60_5shots.npz',
+    parser.add_argument('--few_shot_data_file', type=str, default='/scratch/vbm5250/POET/POET-continual-action-recognition/few_shot_splits/NTU60_5shots.npz',
                         help='Few shot data file, default file is this.')
                         
     # pre-ECCV 
